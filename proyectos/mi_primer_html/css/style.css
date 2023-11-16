@@ -1,0 +1,45 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(232, 104, 103);
+}
+
+footer {
+    /* para fijarlo en la pantalla */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* otros estilos */
+    text-align: center;
+    background-color: #0e1b36;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.titulo {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.contenido {
+    margin: 10%;
+    border-style: dashed;
+    border-color: aliceblue;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+img{
+    width: 100%;
+}
