@@ -96,6 +96,11 @@ body {
 
 .about_skills {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.about_skills .container {
+    flex-grow: 1;
 }
 
 /* clase about_skills para celulares quitar el d-flex */
