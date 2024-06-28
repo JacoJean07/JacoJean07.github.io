@@ -54,7 +54,7 @@ if (file_exists("contacts.json")) {
             <a class="nav-link active" aria-current="page" href="add.php">Add Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../index.html">Regresar al Portfolio</a>
+            <a class="nav-link" href="../index.html">Regresar al Portfolio</a>
           </li>
         </ul>
       </div>
