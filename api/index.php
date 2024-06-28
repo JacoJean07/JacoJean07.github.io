@@ -1,14 +1,9 @@
 <?php
-// si existe el fichero contacts.json entonces leer los contactos dentro de el mismo y asignarlos a la lista o array asociativo
 if (file_exists("contacts.json")) {
-  //como lo que hay en el .json es un string, hay que decodificarlo y luego con el file get, obtenemos los datos del archivo .json y los asignamos al array asociativo
-  // el true es porque al decodificar el .json nos pasa una sintaxis de objetos, por lo que crea un objeto por cada valor, entonces le decimos que true para que nos lo de con un formato de array asociativo, que funciona en php, si fuera java, no tendriamos que poner true
   $contacts = json_decode(file_get_contents("contacts.json"), true);
-  //sino definir la variable contactos como vacia, o la lista en este caso
 } else {
   $contacts = [];
 }
-
 ?>
 
 
