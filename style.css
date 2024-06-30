@@ -1,4 +1,4 @@
-.nav-item{
+.nav-item {
     padding: 0 10px;
     font-size: 20px;
     color: #fff;
@@ -8,7 +8,7 @@
 }
 
 /* hacer que todos los elementos ocupen todo el espacio */
-.navbar-nav{
+.navbar-nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -108,5 +108,13 @@ body {
 @media (max-width: 768px) {
     .about_skills {
         display: block;
+    }
+
+    .p-2-celphone {
+        padding: 20px;
+    }
+
+    .with-celphone {
+        width: 100%;
     }
 }
